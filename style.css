@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+.th{
+    background-color: rgb(24, 185, 24);
+    color: #ffffff;
+    width: 200px;
+    
+
+}
+.tabela{
+    border-spacing: 10px;
+    width: 100%;
+    
+    
+}
+
+.td{
+    text-align: center;
+    border-radius: 4px;
+}
+
+.even-row{
+    background-color: rgb(229, 252, 255);
+    
+}
+
+.odd-row{
+    background-color: rgb(255, 255, 255);
+}
+
