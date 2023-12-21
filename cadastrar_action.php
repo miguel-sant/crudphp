@@ -42,7 +42,7 @@
     
     
        $sql=$pdo->prepare("UPDATE contatos set id_enderecofk = :id_enderecofk where id = :id");
-        $sql->bindValue(':id_enderecofk', $idEndereco, PDO::PARAM_INT);
+        $sql->bindValue(':id_enderecofk', $idEndereco);
         $sql->bindValue(':id', $idEndereco);
          $sql->execute();
     
